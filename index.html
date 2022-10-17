@@ -37,9 +37,9 @@
 
       body {
         max-width: 800px;
+        padding: 45px;
         display: block;
         margin: 0 auto;
-        padding: 45px;
       }
 
       h1 {
@@ -88,6 +88,7 @@
         width: 600px;
         height: 300px;
         border-radius: 30px;
+        text-align: center;
       }
 
       p1 {
@@ -95,10 +96,9 @@
         line-height: 22px;
         font-family: Helvetica, sans-serif;
         color: #f1eae3;
-        text-align: center;
         display: block;
         margin: 0 auto;
-        padding: 45px;
+        text-align: center;
       }
 
       p2 {
@@ -147,12 +147,6 @@
         padding-bottom: 0%;
       }
 
-      .theories {
-        letter-spacing: 0.2px;
-        margin: 30px 175px 10px;
-        text-align: center;
-      }
-
       .link {
         margin-top: 12px;
         text-align: center;
@@ -163,10 +157,10 @@
       }
 
       .list {
-        letter-spacing: 0.3px;
+        letter-spacing: 0.2px;
         font-weight: 500;
         padding: 5px;
-        line-height: 35px;
+        line-height: 25px;
         margin: 0%;
         text-align: center;
       }
@@ -175,6 +169,28 @@
         font-weight: 600;
         font-style: normal;
         text-decoration: none;
+      }
+
+      @media (max-width: 800px) {
+        img {
+          max-width: 200px;
+        }
+
+        p1 {
+          font-size: 16px;
+          font-family: Helvetica, sans-serif;
+          color: #f1eae3;
+          text-align: center;
+        }
+
+        ol {
+          font-size: 16px;
+          font-family: Helvetica, sans-serif;
+          list-style: square;
+          color: #f1eae3;
+          padding: 0px;
+          margin: 0px;
+        }
       }
 
       a:-webkit-any-link {
